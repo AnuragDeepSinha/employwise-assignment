@@ -44,13 +44,14 @@ npm start
 
 The app will run at http://localhost:3000
 
-## API Endpoints Used
+## 🔗 API Endpoints Used  
 
-# Function	   Method	    Endpoint
-  Login	       POST	      /api/login
-  Fetch Users	 GET	      /api/users?page=1
-  Edit User	   PUT	      /api/users/{id}
-  Delete User	 DELETE   	/api/users/{id}
+| Function     | Method | Endpoint                |  
+|-------------|--------|-------------------------|  
+| Login       | POST   | /api/login              |  
+| Fetch Users | GET    | /api/users?page=1      |  
+| Edit User   | PUT    | /api/users/{id}         |  
+| Delete User | DELETE | /api/users/{id}         |  
 
 
 ## 🚀 Deploying to Netlify
