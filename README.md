@@ -88,10 +88,10 @@ employwise-assignment
 │   │── services/  
 │   │   │── api.js  
 │   │── App.js  
-│   │── index.js 
-|   |── index.css
+│   │── index.js  
+│   │── index.css  
 │── package.json  
-│── package-lock.json
+│── package-lock.json 
 
 
 ## 💡 Suggestions & Contributions
