@@ -35,8 +35,71 @@ It enables users to **log in, browse a paginated user list, edit and delete user
 
 ### **Step 1: Clone the Repository**  
 
-git clone https://github.com/your-username/employwise.git
+git clone https://github.com/AnuragDeepSinha/employwise-assignment.git
 cd employwise-assignment
+
+### **Step 2: Run the App Locally**  
+
+npm start
+
+The app will run at http://localhost:3000
+
+## API Endpoints Used
+
+# Function	   Method	    Endpoint
+  Login	       POST	      /api/login
+  Fetch Users	 GET	      /api/users?page=1
+  Edit User	   PUT	      /api/users/{id}
+  Delete User	 DELETE   	/api/users/{id}
+
+
+## 🚀 Deploying to Netlify
+
+### **Step 1: Build the Project** 
+
+npm run build
+
+## Step 2: Deploy to Netlify
+  1. Go to Netlify
+
+  2. Click New Site from Git
+
+  3. Select your repository
+
+  4. Set Build Command: npm run build
+
+  5. Set Publish Directory: /build
+
+  6. Click Deploy 🎉
+
+
+## 👨‍💻 Project Structure
+
+employwise-assignment  
+│── public/  
+│── src/  
+│   │── components/  
+│   │   │── Login.js  
+│   │   │── UsersList.js  
+│   │   │── EditUser.js  
+│   │── pages/  
+│   │   │── Home.js  
+│   │   │── NotFound.js  
+│   │── services/  
+│   │   │── api.js  
+│   │── App.js  
+│   │── index.js 
+|   |── index.css
+│── package.json  
+│── package-lock.json
+
+
+## 💡 Suggestions & Contributions
+Have any suggestions or feedback? Feel free to open an issue or contribute to the project! 🚀
+
+
+
+
 
 
 
